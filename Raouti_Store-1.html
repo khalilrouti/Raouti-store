@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raouti Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #0f0f0f, #2c2c2c);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #FFD700;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            width: 90%;
+            max-width: 600px;
+            padding: 1rem;
+        }
+        .card {
+            background-color: #1e1e1e;
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h2 {
+            color: #FFD700;
+            margin-bottom: 0.5rem;
+        }
+        .card p {
+            color: #ccc;
+        }
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+        }
+        a.whatsapp {
+            margin-top: 1rem;
+            background-color: #25D366;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        a.whatsapp:hover {
+            background-color: #1ebc59;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raouti Store</h1>
+        <p>مرحبًا بك في متجرنا الرقمي - خدمات حصرية ومنتجات رقمية</p>
+    </header>
+    <section class="services">
+        <div class="card">
+            <h2>تصاميم احترافية</h2>
+            <p>شعارات، بانرات، بطاقات أعمال وكل ما تحتاجه لتقوية هويتك البصرية.</p>
+        </div>
+        <div class="card">
+            <h2>فيديوهات وتسويق</h2>
+            <p>مونتاج إبداعي، فيديوهات قصيرة لمنصات التواصل، وتسويق رقمي.</p>
+        </div>
+        <div class="card">
+            <h2>منتجات رقمية</h2>
+            <p>بيع ملفات PDF، كورسات، كتب رقمية، وغير ذلك من المنتجات الفريدة.</p>
+        </div>
+    </section>
+    <a class="whatsapp" href="https://wa.me/212632999490" target="_blank">تواصل معنا على واتساب</a>
+    <footer>
+        &copy; 2025 Raouti Store. كل الحقوق محفوظة.
+    </footer>
+</body>
+</html>
